@@ -1,0 +1,22 @@
+body {
+    background-color:antiquewhite;
+}
+
+h1 {
+    color: navy;
+    margin-left: 20px;
+    font-size: 2em;
+}
+
+p {
+    font-size: 1em;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#heading1 {
+    color: green; 
+}
+
+.group1 {
+    color:purple;
+}
