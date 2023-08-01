@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Forms</title>
+    </head>
+    <body>
+
+        <!-- Get request method -->
+        <!-- data goes into URL -->
+        <form method="get" action="index2.html">
+            Please enter your name:
+            <input type="text" placeholder="Enter Username" name="UserName"/>
+            <br/>
+            <textarea name="UsrAddr" rows="3" cols="15" >
+                Enter address here
+            </textarea>
+            <br/>
+            <input type="radio" name="RadioDrink" value="Tea"/>Tea
+            <input type="radio" name="RadioDrink" value="Coffee"/>Coffee
+            <input type="radio" name="RadioDrink" value="Soup"/>Soup
+            <br/>
+            <input type="checkbox" name="CheckMilk" value="Yes"/>Milk
+            <input type="checkbox" name="CheckSugar" value="Yes"/>Sugar
+            <br/>
+            <input type="submit" name="OKButton" value="Make Order"/>
+
+            <br/>
+
+            <!-- Dropdown lists are made by having a size=1 and not using the "multiple" attribute -->
+            <select id="cars" name="cars" size="1">
+                <option value="audi">Audi</option>
+                <option value="bmw" selected>BMW</option>
+                <option value="mercedes">Mercedes</option>
+            </select>
+
+            <button type="submit"> Submit </button>
+            <button type="reset" name="ResetBtn"> Reset </button>
+        </form>
+
+        <!-- Post Request Method -->
+        <!-- Data goes into request body -->
+        <!-- <form method="post" action="index2.html">
+            Please enter your name:
+            <input type="text" placeholder="Enter Username" name="UserName"/>
+        </form> -->
+
+    </body>
+</html>
