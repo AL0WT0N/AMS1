@@ -1,0 +1,26 @@
+h1 {
+    text-align: center;
+}
+
+p {
+    background-color: lightblue;
+    border: 1px dashed blue;
+    padding: 10px;
+}
+
+div {
+    border: 1px solid red;
+}
+
+#div1 {
+    color: red;
+}
+
+.note {
+    background-color: gray;
+}
+
+span {
+    background-color: rgb(255, 0, 195);
+    margin-left: 20px;
+}

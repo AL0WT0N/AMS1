@@ -1,0 +1,39 @@
+a:link{
+    color: #ff0000;
+}
+
+a:visited{
+    color: #4800ff;
+}
+
+a:hover{
+    color: #808080;
+}
+
+a:active{
+    color: #4cff00;
+}
+
+/* p.start::before{
+    content: "Read this -- ";
+}
+
+p.end::after{
+    content: "More to come -- ";
+} */
+
+p[class="start"]::before{
+    content: "Read this -- ";
+}
+
+p[class="end"]::after{
+    content: "More to come --";
+}
+
+/* p::first-letter {
+    color:#ff0000;
+} */
+
+/* p::first-line {
+    color:#ff0000;
+} */

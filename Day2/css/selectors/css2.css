@@ -1,0 +1,52 @@
+h1 {
+    border: 2px solid blue;
+    text-align: center;
+}
+
+p {
+    background-color: lightblue;
+}
+
+div {
+    color: brown;
+}
+
+span {
+    background-color: rgb(255, 0, 195);
+    margin-left: 20px;
+}
+
+div span {
+    background-color: lightgreen; 
+}
+
+p, div {
+    border: 1px dashed black;
+    box-shadow: 2px 2px 2px gray;
+    padding: 10px;
+}
+
+h1 + p {
+    color: red;
+}
+
+/* Doesn't work because div doesn't immediately follow the h1 */
+h1 + div {
+    background-color: rgb(255, 145, 0);
+}
+
+body * {
+    width: 80%;
+}
+
+.note {
+    background-color: rgb(245, 8, 249);
+}
+
+p.note {
+    background-color: chartreuse;
+}
+
+div:hover {
+    background-color: yellow;
+}
