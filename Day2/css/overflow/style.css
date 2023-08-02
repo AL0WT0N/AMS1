@@ -1,0 +1,8 @@
+div {
+    border: 5px solid red;
+    width: fit-content;
+    height: 150px;
+    padding: 5px;
+    overflow-x:hidden;
+    overflow-y:scroll;
+}
