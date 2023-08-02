@@ -1,3 +1,11 @@
+/* [title] {
+    color: red;
+}
+
+a[href="http://www.qa.com"] { 
+    color: pink;
+} */
+
 a:link{
     color: #ff0000;
 }
@@ -30,10 +38,10 @@ p[class="end"]::after{
     content: "More to come --";
 }
 
-/* p::first-letter {
+p::first-letter {
     color:#ff0000;
-} */
+}
 
-/* p::first-line {
+p::first-line {
     color:#ff0000;
-} */
+}
