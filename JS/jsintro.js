@@ -1,3 +1,5 @@
+"use strict";
+
 console.log("This is a console.log");
 console.info("This is a console.info");
 console.warn("This is a console.warn");
@@ -76,3 +78,7 @@ function sayHello() {
 }
 
 console.log(sayHello());
+
+
+// Not possible with strict mode on
+someVariableName = 10;

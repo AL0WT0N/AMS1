@@ -35,3 +35,30 @@ do {
     count2++;
     console.log(count2);
 } while (flag2 === true)
+
+// Question 1
+for (let A = 100; A <= 200; A++) {
+    console.log("A");
+    // console.log("a = " + A);
+    // console.log(`a = ${A}`);
+}
+
+// Question 2
+for (let A = 100; A <= 200; A++) {
+
+    if (A % 2 == 0) {
+        console.log("even");
+    } else {
+        console.log("false");
+    }
+    
+}
+
+// Question 3
+for (let i = 1; i <= 10; i++) {
+
+    for (let j = 1; j <= 10; j++) {
+        console.log(i);
+    }
+
+} 
