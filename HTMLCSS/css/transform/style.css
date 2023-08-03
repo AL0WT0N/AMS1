@@ -1,8 +1,10 @@
 div {
+    margin-top:25%;
+    margin-left:25%;
     border: solid red; 
     width: 140px; 
     height: 60px;
-    /* transform: rotate(20deg) ; */
+    /* transform: rotate(20deg); */
     /* transform: rotate(20deg) rotateZ(90deg); */
     /* transform: rotate(20deg) translate(200px,100px); */
     /* transform: rotate(20deg) translate(200px,100px) scale(2,3); */
