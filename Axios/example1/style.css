@@ -1,0 +1,11 @@
+.entryDiv {
+    margin-top: 5px;
+    margin-left:auto;
+    margin-right: auto;
+    border: 2px solid;
+    border-radius: 5px;
+    background-color: darksalmon;
+    max-width: 50vw;
+    text-align: center;
+    /* overflow-y: scroll; */
+}

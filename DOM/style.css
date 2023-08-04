@@ -1,0 +1,28 @@
+#saveToMe {
+    border: 2px solid dodgerblue;
+    width: 50%;
+    border-radius: 17px;
+    padding: 13px;
+    margin-top: 5px;
+    margin-left: 10px;
+}
+
+#addBtn {
+
+    margin-left: 10px;
+    margin-top: 10px;
+    
+}
+
+#saveBtn {
+    margin-top: 10px;
+}
+
+.entries {
+    border: 2px solid;
+    border-radius: 6px;
+    width: 50%;
+    text-align: center;
+    background-color: #a3c8ff;
+    margin-bottom:2px;
+}

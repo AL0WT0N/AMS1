@@ -1,5 +1,6 @@
 'use strict';
 
+
 // Function declaration - named functions
 // Function is hoisted to the top of this script
 function myFunc(num1, num2, num3) {
